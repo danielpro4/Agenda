@@ -1,0 +1,60 @@
+.uk-navbar-item {
+    height: 56px !important;
+}
+
+.tm-navbar-container {
+    background: linear-gradient(to left, #28a5f5, #1e87f0) !important;
+}
+
+.tm-navbar-container .uk-navbar-item,
+.tm-navbar-container .uk-logo {
+    color: white !important;
+}
+
+.uk-list-contacts {
+
+}
+
+.uk-list-contacts .contact-item .uk-badge {
+    border: solid 1px #1e87f0;
+}
+
+.uk-list-contacts .contact-item .view-item {
+   padding-left: 15px;
+}
+
+.uk-list-contacts .contact-item:hover {
+    background: #f1f3f5;
+    cursor: pointer;
+}
+
+.uk-list-contacts .contact-item.selected {
+    background: #1e87f0;
+    color: white;
+}
+
+.uk-list-contacts .contact-item.selected .uk-badge {
+    border: solid 1px white;
+}
+
+.uk-list-contacts .contact-item .uk-text-small {
+    font-size: 10px;
+}
+
+.uk-list-contacts .contact-item .uk-button-remove {
+    visibility: hidden;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.uk-list-contacts .contact-item .uk-button-remove span {
+    padding: 5px;
+}
+
+.uk-list-contacts .contact-item.selected .uk-button-remove {
+    color: white;
+}
+
+.uk-list-contacts .contact-item:hover .uk-button-remove {
+    visibility: visible;
+}
